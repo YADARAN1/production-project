@@ -1,3 +1,3 @@
-import AppRoter from "./ui/AppRoter";
+import AppRouter from "./ui/AppRouter";
 
-export { AppRoter };
+export { AppRouter };
