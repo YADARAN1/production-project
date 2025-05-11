@@ -9,7 +9,6 @@ i18n.use(initReactI18next).init({
 	interpolation: {
 		escapeValue: false, // not needed for react!!
 	},
-
 	resources: { ru: { translations: {} } },
 });
 

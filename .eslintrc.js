@@ -54,7 +54,7 @@ module.exports = {
 		"no-underscore-dangle": "off",
 		"i18next/no-literal-string": [
 			"error",
-			{ markupOnly: true, ignoreAttribute: ["data-testid"] },
+			{ markupOnly: true, ignoreAttribute: ["data-testid", "to"] },
 		],
 		"max-len": "off",
 	},
