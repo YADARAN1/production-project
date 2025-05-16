@@ -1,11 +1,11 @@
 {
-	"throw error": "throw error",
-	"Главная": "Main",
-	"Главная страница": "Main page",
-	"О сайте": "About page",
-	"Обновить страницу": "Refresh page",
-	"Переключить": "Switch",
-	"Произошла непредвиденная ошибка": "An unexpected error occurred",
-	"Страница не найдена": "Page not found",
-	"Язык": "English"
+  "throw error": "throw error",
+  "Главная": "Main",
+  "Главная страница": "Main page",
+  "О сайте": "About page",
+  "Обновить страницу": "Refresh page",
+  "Переключить": "Switch",
+  "Произошла непредвиденная ошибка": "An unexpected error occurred",
+  "Страница не найдена": "Page not found",
+  "Язык": "English"
 }
