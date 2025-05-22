@@ -13,7 +13,7 @@ module.exports = {
 		ecmaVersion: "latest",
 		sourceType: "module",
 	},
-	plugins: ["react", "@typescript-eslint", "i18next"],
+	plugins: ["react", "@typescript-eslint", "i18next", "react-hooks"],
 	rules: {
 		// Использовать табы для отступов (1 таб = 1 уровень)
 		indent: ["error", "tab"],
@@ -57,15 +57,23 @@ module.exports = {
 			{ markupOnly: true, ignoreAttribute: ["data-testid", "to"] },
 		],
 		"max-len": "off",
+		"jsx-a11y/click-events-have-key-events": "off",
+		"jsx-a11y/no-static-element-interactions": "off",
+		"react-hooks/rules-of-hooks": "error",
+		"react-hooks/exhaustive-deps": "error",
+		"operator-linebreak": "off",
+		"comma-dangle": "off",
+		"implicit-arrow-linebreak": "off",
 	},
 	globals: {
 		__IS_DEV__: true,
 	},
 	overrides: [
 		{
-			files: ["**/src/**/*.test.{ts,tsx}"],
+			files: ["**/src/**/*.{test,stories}.{ts,tsx}"],
 			rules: {
 				"i18next/no-literal-string": "off",
+				"max-len": "off",
 			},
 		},
 	],

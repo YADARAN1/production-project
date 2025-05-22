@@ -1,7 +1,7 @@
 {
 	"extends": "stylelint-config-standard-scss",
 	"rules": {
-		"indentation": [4],
+		"indentation": "tab",
 		"selector-class-pattern": null
 	}
 }
