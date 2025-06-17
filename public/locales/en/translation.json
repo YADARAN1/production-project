@@ -1,14 +1,16 @@
 {
-  "throw error": "throw error",
-  "Войти": "",
-  "Главная": "Main page",
-  "Главная страница": "Main page",
-  "Короткий язык": "EN",
-  "О сайте": "About us",
-  "Обновить страницу": "Reload page",
-  "Перевод": "Translate",
-  "Переключить": "Switch",
-  "Произошла непредвиденная ошибка": "An unexpected error occurred",
-  "Страница не найдена": "Page not found",
-  "Язык": "English"
+	"Перевод": "Translate",
+	"Главная страница": "Main page",
+	"Язык": "English",
+	"Страница не найдена": "Page not found",
+	"Произошла непредвиденная ошибка": "An unexpected error has occurred",
+	"Обновить страницу": "Reload page",
+	"throw error": "throw error",
+	"Главная": "Main",
+	"О сайте": "About us",
+	"Переключить": "Switch",
+	"Короткий язык": "En",
+	"Войти": "Login",
+	"increment": "increment",
+	"decrement": "decrement"
 }

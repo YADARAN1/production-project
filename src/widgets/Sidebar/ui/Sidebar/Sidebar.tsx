@@ -6,8 +6,8 @@ import { Button, ButtonSize, ButtonTheme } from "shared/ui/Button/Button";
 import { useTranslation } from "react-i18next";
 import { AppLink, AppLinkTheme } from "shared/ui/AppLink/AppLink";
 import { RoutePath } from "shared/config/routeConfig/routeConfig";
-import AboutIcon from "shared/assets/icons/about.svg";
-import MainIcon from "shared/assets/icons/main.svg";
+import AboutIcon from "shared/assets/icons/about-20-20.svg";
+import MainIcon from "shared/assets/icons/main-20-20.svg";
 import cls from "./Sidebar.module.scss";
 
 interface SidebarProps {
@@ -34,8 +34,8 @@ export const Sidebar = ({ className }: SidebarProps) => {
 				onClick={onToggle}
 				className={cls.collapseBtn}
 				theme={ButtonTheme.BACKGROUND_INVERTED}
-				square
 				size={ButtonSize.L}
+				square
 			>
 				{collapsed ? ">" : "<"}
 			</Button>
